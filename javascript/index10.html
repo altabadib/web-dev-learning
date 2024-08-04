@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<style>
+     #btn{
+          padding: 10px;
+          color: white;
+          background-color: black;
+          border: 2px solid red;
+          border-radius: 10px;
+          cursor: pointer;
+          font-weight: bold;
+     }
+</style>
+<body>
+     <div id="container">
+          <h1>this is a heading</h1>
+          <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat corrupti dicta fugiat ea dignissimos ipsum perferendis molestias ratione dolorum cupiditate architecto facere nisi mollitia vero laboriosam consequatur necessitatibus totam, animi unde. Reiciendis, minus quia voluptatum omnis labore odit quae cum ex natus, iure temporibus cupiditate, quod eveniet aliquid rerum. Reiciendis!</p>
+          <button id="btn" onclick="toggleHide()">submit here</button>
+     </div>
+
+     <script>
+          let para = document.getElementById('para');
+para.addEventListener('mouseover', function run (){
+     console.log("mouseinsert")
+})
+para.addEventListener('mouseout', function run (){
+     console.log("mouseoutside")
+})
+
+function toggleHide(){
+let btn = document.getElementById('btn');
+let para = document.getElementById('para');
+// para.style.display= 'none'
+if(para.style.display !='none'){
+     para.style.display= 'none';
+}
+else{
+     para.style.display ='block';
+}
+
+}
+     </script>
+</body>
+</html>

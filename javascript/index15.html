@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <div class="container">
+          this is a container
+     </div>
+     <script>
+          console.log("json tutorial");
+
+JSONObj1={
+ name:"Afreen",
+ channel:"CWH",
+ Friend:"tausif",
+ food: "Meat"
+}
+console.log(JSONObj1);
+
+let JSONstr= JSON.stringify(JSONObj1);
+console.log(JSONstr);
+
+myJsonstr1=JSONstr.replace("Afreen", "Adib");
+console.log(myJsonstr1);
+
+newjsonobj2= JSON.parse(JSONstr);
+console.log(newjsonobj2);
+     </script>
+</body>
+</html>

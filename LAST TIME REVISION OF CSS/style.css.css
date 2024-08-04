@@ -1,0 +1,163 @@
+h1 {
+     color: rgb(93, 108, 121);
+}
+
+#adib {
+     background-color: black;
+     color: azure;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-style: italic;
+     font-weight: bold;
+     font-size: 2em;
+     border: 15px solid rgb(107, 6, 6);
+}
+
+a:link {
+     color: red;
+}
+
+a:visited {
+     color: aqua;
+}
+
+a:hover {
+     color: blue;
+}
+
+.adib {
+     height: 400px;
+     width: 380px;
+     color: black;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: bisque;
+     border: 10px solid black;
+     border-radius: 20px;
+     text-align: center;
+     font-style: italic;
+}
+
+.adibimg {
+     padding: 0;
+     margin: 0;
+     height: 1300px;
+     width: 950px;
+     background-image: url("IMG/html.css.jpeg");
+     border: 5px solid red;
+     border-radius: 10px;
+     background-repeat: no-repeat;
+     background-position: top right;
+     background-position: center center;
+     /* background-attachment: fixed; */
+     text-align: center;
+}
+
+.container1 {
+     color: black;
+      background-color: rgb(109, 109, 192);
+      border: 4px solid rgb(220, 167, 185);
+      border-radius: 6px;
+      /* this means top and bottom(x) left and right (y) */
+      padding: 60px 40px;
+      /* same thing for margin top and bottom (x) left and right (y) */
+      margin: 60px 40px;
+      width: 700px;
+      box-sizing: border-box;
+
+}
+.heading{
+     color: black;
+}
+
+nav {
+     font-family: Arial, Helvetica, sans-serif;
+     border: 6px dashed rgb(242, 147, 229);
+     /* pading is used from the inner surface of border to the text u have written for the space like it is sued to bring space betwwen the two words */
+     padding: 55px;
+     /* margin is used from the side of the monitor display to the border radius of upper surface */
+     margin: 100px;
+}
+*{
+     margin: 0;
+     padding: 0;
+     /* this is used to keep the words inside the border even when padding or margin increases it settle the words inside the box   */
+     box-sizing: border-box;
+
+}
+
+.navbar{
+     color: white;
+     background-color: black;
+     border: 15px solid green;
+}
+.ul{
+     border: 2px solid salmon;
+     display: flex;
+     margin-top: 20px;
+     color: white;
+     justify-content: center;
+
+}
+
+.ul  li {
+     padding-left: 40px;
+     cursor: pointer;
+     list-style: none;
+     color: white;
+    
+
+}
+li a{
+     text-decoration: none;
+     color: white;
+     padding: 15px;
+     
+}
+.content{
+     height: 20vh;
+     width: auto;
+     color: black;
+     background-color: antiquewhite;
+     border: 4px solid pink;
+     font-size: 20px;
+     padding: 10px;
+     margin: 20px;
+     display: flex; 
+      justify-content: center;
+     align-items: center;
+     
+}
+#box{
+   color: aqua; 
+   padding: 10px 20px ;
+}
+.content box{
+     margin: 10px;
+}
+
+.boxs{
+     height: 200px;
+     width: 200px;
+     border: 2px solid red;
+}
+#name-1{
+     background-color: rgb(93, 217, 157);
+     color: black;
+     position: relative;
+     top: 90px;
+}
+#name-2{
+     background-color: rgb(28, 9, 136);
+     color: black;
+     /* visibility: hidden; */
+     /* display: none; */
+     position: relative;
+     top: 60px;
+}#name-3{
+     background-color: rgb(138, 15, 15);
+     color: black;
+     position: relative;
+     top:70px;
+}#name-4{
+     background-color: rgb(98, 74, 74);
+     color: black;
+}
